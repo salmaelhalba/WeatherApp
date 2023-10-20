@@ -38,11 +38,7 @@
 
       <div id="div_Form" class="d-flex m-3 justify-content-center">
         <form action="">
-          <input
-            type="button"
-            value="Change Location"
-            class="btn change-btn btn-primary"
-          />
+          <input type="button" value="Change Location" class="btn change-btn btn-primary" />
         </form>
       </div>
     </div>
@@ -50,6 +46,7 @@
 </template>
 
 <script>
+
 import DaysWeather from "./DaysWeather.vue";
 
 export default (await import("vue")).defineComponent({
@@ -146,6 +143,7 @@ td {
 td {
   text-align: right;
 }
+
 table,
 tr:hover {
   color: red;
